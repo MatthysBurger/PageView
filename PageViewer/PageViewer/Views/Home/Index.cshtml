@@ -1,0 +1,89 @@
+﻿@model PageDirectory
+
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Pages</h1>
+
+<br />
+
+@using (Html.BeginForm())
+{
+    <p>
+        Find by name: @Html.TextBox("SearchString")
+        <input type="submit" value="Search" />
+    </p>
+}
+
+<br />
+
+<h3>Total pages found = @Model.Count</h3>
+
+<ul id="myUL">
+    @Html.Raw(GetTree(@Model, true))
+</ul>
+
+<script>
+    var toggler = document.getElementsByClassName("caret");
+    var i;
+
+    for (i = 0; i < toggler.length; i++) {
+        toggler[i].addEventListener("click", function () {
+            this.parentElement.querySelector(".nested").classList.toggle("active");
+            this.classList.toggle("caret-down");
+        });
+    }
+</script>
+
+@functions{
+    public string GetTree(PageDirectory pd, bool hideroot = false)
+    {
+        string treeHTML = string.Empty;
+
+        if (!hideroot)
+        {
+            treeHTML += "<li>";
+            treeHTML += "<span class=\"caret\">";
+            treeHTML += pd.Name;
+            treeHTML += "</span>";
+
+            treeHTML += "<ul class=\"nested active\">";
+
+            foreach (PageDirectory spd in pd.PageDirectories)
+            {
+                treeHTML += GetTree(spd);
+            }
+
+            foreach (PageView spv in pd.PageViews)
+            {
+                treeHTML += GetTree(spv);
+            }
+
+            treeHTML += "</ul>";
+
+            treeHTML += "</li>";
+        }
+        else
+        {
+            foreach (PageDirectory spd in pd.PageDirectories)
+            {
+                treeHTML += GetTree(spd);
+            }
+        }
+
+        return treeHTML;
+    }
+
+    public string GetTree(PageView pv)
+    {
+        string treeHTML = string.Empty;
+
+        treeHTML += "<li><a href=\"./PageView/Details/" + pv.ID + "\">";
+        treeHTML += pv.Name;
+        treeHTML += "</a></li>";
+
+        return treeHTML;
+    }
+}

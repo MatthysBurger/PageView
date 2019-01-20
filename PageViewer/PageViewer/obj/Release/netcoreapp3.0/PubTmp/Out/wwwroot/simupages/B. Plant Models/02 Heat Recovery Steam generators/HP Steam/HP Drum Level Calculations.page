@@ -1,0 +1,828 @@
+<?xml version="1.0" standalone="yes"?>
+<IPS>
+  <Library Name="IPS" Version="8.3.3.3485" />
+  <Library Name="Actuator" Version="2.0.3.0" />
+  <Library Name="ActuatorToElecLibConnection" Version="1.0.1.0" />
+  <Library Name="AppStarter" Version="1.0.6479.0" />
+  <Library Name="DCS" Version="8.2.0.0" />
+  <Library Name="ElectricalNetworkSolver" Version="10.0.0.0" />
+  <Library Name="FlownexInterfacing" Version="1.0.0.0" />
+  <Library Name="FSEManagerLibrary" Version="1.0.4.0" />
+  <Library Name="Furnace" Version="1.0.1.0" />
+  <Library Name="HardwarePanels" Version="1.0.0.0" />
+  <Library Name="InstructorStation" Version="1.0.2.0" />
+  <Library Name="LoadFile" Version="1.0.1.0" />
+  <Library Name="MaterialsHandling" Version="1.0.0.0" />
+  <Library Name="OPCDriver" Version="1.0.1.0" />
+  <Library Name="PSSShaft" Version="1.0.2.0" />
+  <Library Name="SamahnziVisualisation" Version="1.2.1.0" />
+  <Library Name="ShaftConnectionLibrary" Version="1.0.1.0" />
+  <Library Name="ThermoHydraulicLibrary" Version="2.1.1.0" />
+  <Library Name="Transmitter" Version="1.0.3.0" />
+  <Library Name="TransmitterToElectricLibrary" Version="1.0.1.0" />
+  <Library Name="Flownex" Version="8.3.3.0" />
+  <Library Name="Flownex" Version="8.3.3.0" />
+  <Library Name="IPS.Actions" Version="8.3.3.0" />
+  <Library Name="IPS.Alarms" Version="8.3.3.0" />
+  <Library Name="IPS.Backtracking" Version="8.3.3.0" />
+  <Library Name="IPS.DataTransfer" Version="8.3.3.0" />
+  <Library Name="IPS.Designer" Version="8.3.3.0" />
+  <Library Name="IPS.Excel" Version="8.3.3.0" />
+  <Library Name="IPS.ExcelReporting" Version="8.3.3.0" />
+  <Library Name="IPS.Exposers" Version="8.3.3.0" />
+  <Library Name="IPS.Forms" Version="8.3.3.0" />
+  <Library Name="IPS.Logger" Version="8.3.3.0" />
+  <Library Name="IPS.PropertyMonitor" Version="8.3.3.0" />
+  <Library Name="IPS.Scheduler" Version="8.3.3.0" />
+  <Library Name="IPS.Scripting" Version="8.3.3.0" />
+  <Library Name="IPS.Tools" Version="8.3.3.0" />
+  <Library Name="IPS.TrainingEvaluation" Version="8.3.3.0" />
+  <Library Name="IPS.Visualisation" Version="8.3.3.0" />
+  <IPS.Plugin.DrawingPageImpl>
+    <Properties>FitInstructorPage FitOperatorPage FloatByDefault FullscreenInstructorPage FullscreenOperatorPage Identifier InstructorFloatByDefault InstructorPage OperatorFloatByDefault OperatorPage PersistedIdentifierWithTemplate ScaleX ScaleY Size StartupInstructorPage StartupOperatorPage StyleSelector SystemName TID UserDescription ViewPortOrigin </Properties>
+    <Values>  "False" "False" "False" "False" "False" "Pages\B. Plant Models\02 Heat Recovery Steam generators\HP Steam\HP Drum Level Calculations.page" "False" "False" "False" "False" "Pages\B. Plant Models\02 Heat Recovery Steam generators\HP Steam\HP Drum Level Calculations.page" "0.799999952" "0.799999952" "2800, 2000" "False" "False" "*F*Image;Horizontal1;Page.jpg;White;Gray;100*/F**S*DarkGray;Solid;1*/S**T*Black;Microsoft Sans Serif, 10pt;MiddleCenter;*/T*" "" "" "" "0, 113" </Values>
+    <List Name="LayerDrawingDatas">
+      <IPS.Core.LayerDrawingDataList>
+        <ListItems>
+          <IPS.Plugin.LayerDrawingDataImpl>
+            <Properties>Active Identifier PersistedIdentifierWithTemplate TID UserDescription Visible VisibleToEngineersOnly zOrder </Properties>
+            <Item Index="0" Identifier="Design">
+              <Values>  "False" "Design" "Design" "" "" "True" "False" "0" </Values>
+            </Item>
+            <Item Index="1" Identifier="Default">
+              <Values>  "True" "Default" "Default" "" "" "True" "False" "1" </Values>
+              <List Name="ComponentDrawingDatas">
+                <IPS.Core.ComponentDrawingDataList>
+                  <ListItems>
+                    <IPS.Plugin.ComponentDrawingDataImpl>
+                      <Properties>Center ComponentUserName ConfigName DisplayOptionShown FlipX FlipY Identifier Image Merging PersistedIdentifierWithTemplate Rotation Size TID UserDescription zOrder </Properties>
+                      <Item Index="0" Identifier="View2">
+                        <Values>  "424.9995, 143.749969" "4SGA-LT-1001" "(Default)" "ChooseImage" "False" "False" "View2" "SP_Transmitters\Level_T.jpg" "NORMAL" "View2" "0" "100, 37.49994" "" "" "0" </Values>
+                      </Item>
+                      <Item Index="1" Identifier="View2">
+                        <Values>  "424.9995, 181.249969" "4SGA-LT-1002" "(Default)" "ChooseImage" "False" "False" "View2" "SP_Transmitters\Level_T.jpg" "NORMAL" "View2" "0" "100, 37.49994" "" "" "1" </Values>
+                      </Item>
+                      <Item Index="2" Identifier="View2">
+                        <Values>  "425, 218.749847" "4SGA-LT-1003" "(Default)" "ChooseImage" "False" "False" "View2" "SP_Transmitters\Level_T.jpg" "NORMAL" "View2" "0" "100, 37.49994" "" "" "2" </Values>
+                      </Item>
+                      <Item Index="3" Identifier="View2">
+                        <Values>  "424.9995, 112.5" "cSGA_IO Box_339" "" "ChooseConfiguration" "False" "False" "View2" "" "NORMAL" "View2" "0" "100, 25" "" "" "3" </Values>
+                      </Item>
+                      <Item Index="4" Identifier="View2">
+                        <Values>  "125.000488, 393.75" "4SGA-PT-1002" "(Default)" "ChooseImage" "False" "False" "View2" "SP_Transmitters\Pres_T.jpg" "MASTER" "View2" "0" "100, 37.5" "" "" "4" </Values>
+                      </Item>
+                      <Item Index="5" Identifier="View2">
+                        <Values>  "125, 431.25" "4SGA-PT-1006" "(Default)" "ChooseImage" "False" "False" "View2" "SP_Transmitters\Pres_T.jpg" "MASTER" "View2" "0" "100, 37.5" "" "" "5" </Values>
+                      </Item>
+                      <Item Index="6" Identifier="View2">
+                        <Values>  "125.000488, 468.75" "4SGA-PT-1007" "(Default)" "ChooseImage" "False" "False" "View2" "SP_Transmitters\Pres_T.jpg" "MASTER" "View2" "0" "100, 37.5" "" "" "6" </Values>
+                      </Item>
+                      <Item Index="7" Identifier="View2">
+                        <Values>  "125.000488, 362.5" "cSGA_IO Box_340" "" "ChooseConfiguration" "False" "False" "View2" "" "NORMAL" "View2" "0" "100, 25" "" "" "7" </Values>
+                      </Item>
+                      <Item Index="8" Identifier="View1">
+                        <Values>  "250, 425" "cSGA_AnalogSelect_4" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "50, 50" "" "" "8" </Values>
+                      </Item>
+                      <Item Index="9" Identifier="View1">
+                        <Values>  "425, 500" "cSGA_Function Generator_16" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "50, 50" "" "" "12" </Values>
+                      </Item>
+                      <Item Index="10" Identifier="View1">
+                        <Values>  "425, 350" "cSGA_Function Generator_17" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "50, 50" "" "" "13" </Values>
+                      </Item>
+                      <Item Index="11" Identifier="View1">
+                        <Values>  "700, 350" "cSGA_Math Function Engine_21" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "50, 50" "" "" "14" </Values>
+                      </Item>
+                      <Item Index="12" Identifier="View1">
+                        <Values>  "700, 425" "cSGA_Math Function Engine_39" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "50, 50" "" "" "19" </Values>
+                      </Item>
+                      <Item Index="13" Identifier="View1">
+                        <Values>  "700, 500" "cSGA_Math Function Engine_40" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "50, 50" "" "" "20" </Values>
+                      </Item>
+                      <Item Index="14" Identifier="View1">
+                        <Values>  "875, 337.5" "4SGA_LT1001" "Long" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "150, 25" "" "" "28" </Values>
+                      </Item>
+                      <Item Index="15" Identifier="View1">
+                        <Values>  "875, 412.5" "4SGA_LT1002" "Long" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "150, 25" "" "" "30" </Values>
+                      </Item>
+                      <Item Index="16" Identifier="View1">
+                        <Values>  "875, 487.5" "4SGA_LT1003" "Long" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "150, 25" "" "" "31" </Values>
+                      </Item>
+                      <Item Index="17" Identifier="View1">
+                        <Values>  "250, 950" "cSGA_AnalogSelect_114" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "50, 50" "" "" "34" </Values>
+                      </Item>
+                      <Item Index="18" Identifier="View1">
+                        <Values>  "425, 1025" "cSGA_Function Generator_115" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "INTERFACE" "View1" "0" "50, 50" "" "" "38" </Values>
+                      </Item>
+                      <Item Index="19" Identifier="View1">
+                        <Values>  "425, 875" "cSGA_Function Generator_116" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "INTERFACE" "View1" "0" "50, 50" "" "" "39" </Values>
+                      </Item>
+                      <Item Index="20" Identifier="View1">
+                        <Values>  "700, 875" "cSGA_Math Function Engine_117" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "INTERFACE" "View1" "0" "50, 50" "" "" "40" </Values>
+                      </Item>
+                      <Item Index="21" Identifier="View1">
+                        <Values>  "700, 950" "cSGA_Math Function Engine_118" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "INTERFACE" "View1" "0" "50, 50" "" "" "45" </Values>
+                      </Item>
+                      <Item Index="22" Identifier="View1">
+                        <Values>  "700, 1025" "cSGA_Math Function Engine_119" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "INTERFACE" "View1" "0" "50, 50" "" "" "46" </Values>
+                      </Item>
+                      <Item Index="23" Identifier="View1">
+                        <Values>  "875, 862.5" "4SGA_LT2001" "Long" "ChooseConfiguration" "False" "False" "View1" "" "INTERFACE" "View1" "0" "150, 25" "" "" "54" </Values>
+                      </Item>
+                      <Item Index="24" Identifier="View1">
+                        <Values>  "875, 937.5" "4SGA_LT2002" "Long" "ChooseConfiguration" "False" "False" "View1" "" "INTERFACE" "View1" "0" "150, 25" "" "" "56" </Values>
+                      </Item>
+                      <Item Index="25" Identifier="View1">
+                        <Values>  "875, 1012.5" "4SGA_LT2003" "Long" "ChooseConfiguration" "False" "False" "View1" "" "INTERFACE" "View1" "0" "150, 25" "" "" "57" </Values>
+                      </Item>
+                      <Item Index="26" Identifier="View2">
+                        <Values>  "424.999756, 668.75" "4SGA-LT-2001" "(Default)" "ChooseImage" "False" "False" "View2" "SP_Transmitters\Level_T.jpg" "NORMAL" "View2" "0" "100, 37.49994" "" "" "60" </Values>
+                      </Item>
+                      <Item Index="27" Identifier="View2">
+                        <Values>  "424.999756, 706.25" "4SGA-LT-2002" "(Default)" "ChooseImage" "False" "False" "View2" "SP_Transmitters\Level_T.jpg" "NORMAL" "View2" "0" "100, 37.49994" "" "" "61" </Values>
+                      </Item>
+                      <Item Index="28" Identifier="View2">
+                        <Values>  "425, 743.7499" "4SGA-LT-2003" "(Default)" "ChooseImage" "False" "False" "View2" "SP_Transmitters\Level_T.jpg" "NORMAL" "View2" "0" "100, 37.49994" "" "" "62" </Values>
+                      </Item>
+                      <Item Index="29" Identifier="View2">
+                        <Values>  "125, 918.75" "4SGA-PT-2002" "(Default)" "ChooseImage" "False" "False" "View2" "SP_Transmitters\Pres_T.jpg" "MASTER" "View2" "0" "100, 37.5" "" "" "63" </Values>
+                      </Item>
+                      <Item Index="30" Identifier="View2">
+                        <Values>  "125, 956.25" "4SGA-PT-2006" "(Default)" "ChooseImage" "False" "False" "View2" "SP_Transmitters\Pres_T.jpg" "MASTER" "View2" "0" "100, 37.5" "" "" "64" </Values>
+                      </Item>
+                      <Item Index="31" Identifier="View2">
+                        <Values>  "125.000244, 993.75" "4SGA-PT-2007" "(Default)" "ChooseImage" "False" "False" "View2" "SP_Transmitters\Pres_T.jpg" "MASTER" "View2" "0" "100, 37.5" "" "" "65" </Values>
+                      </Item>
+                      <Item Index="32" Identifier="View2">
+                        <Values>  "424.999756, 637.5" "cSGA_IO Box_355" "" "ChooseConfiguration" "False" "False" "View2" "" "NORMAL" "View2" "0" "100, 25" "" "" "66" </Values>
+                      </Item>
+                      <Item Index="33" Identifier="View2">
+                        <Values>  "125, 887.5" "cSGA_IO Box_356" "" "ChooseConfiguration" "False" "False" "View2" "" "NORMAL" "View2" "0" "100, 25" "" "" "67" </Values>
+                      </Item>
+                    </IPS.Plugin.ComponentDrawingDataImpl>
+                  </ListItems>
+                </IPS.Core.ComponentDrawingDataList>
+              </List>
+              <List Name="LinkDrawingDatas">
+                <IPS.Core.LinkDrawingDataList>
+                  <ListItems>
+                    <IPS.Plugin.LinkDrawingDataImpl>
+                      <Properties>ArrowSize Color EndShape FadeWidth Identifier IsAcrossPages IsBridge IsOnStartPage LinkType LinkUserName Pattern PersistedIdentifierWithTemplate Shadow ShadowColor ShadowScale ShadowXOffset ShadowYOffset StartShape TID UserDescription ViewFromName ViewToName Width zOrder </Properties>
+                      <Item Index="0" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "POLY" "cSGA_DataTransferLink_5" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View2" "View1" "1" "9" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "175.000488, 406.250061" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "225, 418.749969" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="1" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "POLY" "cSGA_DataTransferLink_6" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View2" "View1" "1" "10" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "175, 428.75" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "225, 426.25" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="2" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "POLY" "cSGA_DataTransferLink_10" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View2" "View1" "1" "11" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "175.000488, 451.249939" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "225, 433.750031" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="3" Identifier="">
+                        <Values>  "2" "Red" "Arrow" "2" "" "False" "True" "False" "POLY" "cSGA_Double_DoubleLink_22" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "15" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "450, 337.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "675, 347.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="4" Identifier="">
+                        <Values>  "2" "Red" "Arrow" "2" "" "False" "True" "False" "POLY" "cSGA_Double_DoubleLink_23" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "16" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "450, 487.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "675, 351.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="5" Identifier="">
+                        <Values>  "2" "Red" "Arrow" "2" "" "False" "True" "False" "POLY" "cSGA_Double_DoubleLink_36" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "17" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "275, 421.519073" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "400, 349" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="6" Identifier="">
+                        <Values>  "2" "Red" "Arrow" "2" "" "False" "True" "False" "POLY" "cSGA_Double_DoubleLink_37" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "18" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "275, 428.3893" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "400, 499" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="7" Identifier="">
+                        <Values>  "2" "Red" "Arrow" "2" "" "False" "True" "False" "POLY" "cSGA_Double_DoubleLink_41" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "21" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "450, 337.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "675, 422.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="8" Identifier="">
+                        <Values>  "2" "Red" "Arrow" "2" "" "False" "True" "False" "POLY" "cSGA_Double_DoubleLink_42" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "22" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "450, 337.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "675, 497.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="9" Identifier="">
+                        <Values>  "2" "Red" "Arrow" "2" "" "False" "True" "False" "POLY" "cSGA_Double_DoubleLink_43" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "23" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "450, 487.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "675, 426.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="10" Identifier="">
+                        <Values>  "2" "Red" "Arrow" "2" "" "False" "True" "False" "POLY" "cSGA_Double_DoubleLink_44" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "24" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "450, 487.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "675, 501.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="11" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "HV" "cSGA_DataTransferLink_59" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View2" "View1" "1" "25" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "474.9995, 143.749969" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "650, 143.749969" </Values>
+                                </Item>
+                                <Item Index="2">
+                                  <Values>  "650, 350" </Values>
+                                </Item>
+                                <Item Index="3">
+                                  <Values>  "675, 350" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="12" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "HV" "cSGA_DataTransferLink_60" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View2" "View1" "1" "26" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "474.9995, 181.249969" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "600, 181.249969" </Values>
+                                </Item>
+                                <Item Index="2">
+                                  <Values>  "600, 425" </Values>
+                                </Item>
+                                <Item Index="3">
+                                  <Values>  "675, 425" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="13" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "HV" "cSGA_DataTransferLink_61" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View2" "View1" "1" "27" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "475, 218.749847" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "550, 218.749847" </Values>
+                                </Item>
+                                <Item Index="2">
+                                  <Values>  "550, 500" </Values>
+                                </Item>
+                                <Item Index="3">
+                                  <Values>  "675, 500" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="14" Identifier="">
+                        <Values>  "2" "Red" "Arrow" "2" "" "False" "True" "False" "POLY" "cSGA_Double_DoubleLink_106" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "29" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "725, 334.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "800, 337.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="15" Identifier="">
+                        <Values>  "2" "Red" "Arrow" "2" "" "False" "True" "False" "POLY" "cSGA_Double_DoubleLink_109" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "32" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "725, 484.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "800, 487.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="16" Identifier="">
+                        <Values>  "2" "Red" "Arrow" "2" "" "False" "True" "False" "POLY" "cSGA_Double_DoubleLink_110" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "33" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "725, 409.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "800, 412.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="17" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "POLY" "cSGA_DataTransferLink_209" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View2" "View1" "1" "35" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "175, 931.25" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "225, 943.75" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="18" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "POLY" "cSGA_DataTransferLink_210" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View2" "View1" "1" "36" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "175, 953.75" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "225, 951.25" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="19" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "POLY" "cSGA_DataTransferLink_212" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View2" "View1" "1" "37" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "175.000244, 976.249939" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "225, 958.75" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="20" Identifier="">
+                        <Values>  "2" "Red" "Arrow" "2" "" "False" "True" "False" "POLY" "cSGA_Double_DoubleLink_120" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "41" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "450, 862.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "675, 872.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="21" Identifier="">
+                        <Values>  "2" "Red" "Arrow" "2" "" "False" "True" "False" "POLY" "cSGA_Double_DoubleLink_121" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "42" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "450, 1012.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "675, 876.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="22" Identifier="">
+                        <Values>  "2" "Red" "Arrow" "2" "" "False" "True" "False" "POLY" "cSGA_Double_DoubleLink_122" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "43" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "275, 946.5191" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "400, 874" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="23" Identifier="">
+                        <Values>  "2" "Red" "Arrow" "2" "" "False" "True" "False" "POLY" "cSGA_Double_DoubleLink_123" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "44" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "275, 953.3893" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "400, 1024" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="24" Identifier="">
+                        <Values>  "2" "Red" "Arrow" "2" "" "False" "True" "False" "POLY" "cSGA_Double_DoubleLink_124" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "47" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "450, 862.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "675, 947.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="25" Identifier="">
+                        <Values>  "2" "Red" "Arrow" "2" "" "False" "True" "False" "POLY" "cSGA_Double_DoubleLink_125" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "48" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "450, 862.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "675, 1022.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="26" Identifier="">
+                        <Values>  "2" "Red" "Arrow" "2" "" "False" "True" "False" "POLY" "cSGA_Double_DoubleLink_126" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "49" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "450, 1012.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "675, 951.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="27" Identifier="">
+                        <Values>  "2" "Red" "Arrow" "2" "" "False" "True" "False" "POLY" "cSGA_Double_DoubleLink_127" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "50" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "450, 1012.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "675, 1026.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="28" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "HV" "cSGA_DataTransferLink_213" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View2" "View1" "1" "51" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "474.999756, 668.75" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "650, 668.75" </Values>
+                                </Item>
+                                <Item Index="2">
+                                  <Values>  "650, 875" </Values>
+                                </Item>
+                                <Item Index="3">
+                                  <Values>  "675, 875" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="29" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "HV" "cSGA_DataTransferLink_235" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View2" "View1" "1" "52" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "474.999756, 706.25" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "600, 706.25" </Values>
+                                </Item>
+                                <Item Index="2">
+                                  <Values>  "600, 950" </Values>
+                                </Item>
+                                <Item Index="3">
+                                  <Values>  "675, 950" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="30" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "HV" "cSGA_DataTransferLink_253" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View2" "View1" "1" "53" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "475, 743.7499" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "550, 743.7499" </Values>
+                                </Item>
+                                <Item Index="2">
+                                  <Values>  "550, 1025" </Values>
+                                </Item>
+                                <Item Index="3">
+                                  <Values>  "675, 1025" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="31" Identifier="">
+                        <Values>  "2" "Red" "Arrow" "2" "" "False" "True" "False" "POLY" "cSGA_Double_DoubleLink_128" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "55" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "725, 859.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "800, 862.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="32" Identifier="">
+                        <Values>  "2" "Red" "Arrow" "2" "" "False" "True" "False" "POLY" "cSGA_Double_DoubleLink_129" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "58" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "725, 1009.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "800, 1012.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="33" Identifier="">
+                        <Values>  "2" "Red" "Arrow" "2" "" "False" "True" "False" "POLY" "cSGA_Double_DoubleLink_130" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "59" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "725, 934.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "800, 937.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                    </IPS.Plugin.LinkDrawingDataImpl>
+                  </ListItems>
+                </IPS.Core.LinkDrawingDataList>
+              </List>
+            </Item>
+          </IPS.Plugin.LayerDrawingDataImpl>
+        </ListItems>
+      </IPS.Core.LayerDrawingDataList>
+    </List>
+  </IPS.Plugin.DrawingPageImpl>
+</IPS>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="PageViewer20190119123531" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^I:\\git-new\\PageViewer\\PageViewer\\PageViewer\\obj\\Release\\netcoreapp3\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

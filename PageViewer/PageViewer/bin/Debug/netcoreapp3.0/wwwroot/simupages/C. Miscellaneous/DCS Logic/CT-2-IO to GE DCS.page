@@ -1,0 +1,432 @@
+<?xml version="1.0" standalone="yes"?>
+<IPS>
+  <Library Name="IPS" Version="8.3.3.3485" />
+  <Library Name="Actuator" Version="2.0.3.0" />
+  <Library Name="ActuatorToElecLibConnection" Version="1.0.1.0" />
+  <Library Name="AppStarter" Version="1.0.6479.0" />
+  <Library Name="DCS" Version="8.2.0.0" />
+  <Library Name="ElectricalNetworkSolver" Version="10.0.0.0" />
+  <Library Name="FlownexInterfacing" Version="1.0.0.0" />
+  <Library Name="FSEManagerLibrary" Version="1.0.4.0" />
+  <Library Name="Furnace" Version="1.0.1.0" />
+  <Library Name="HardwarePanels" Version="1.0.0.0" />
+  <Library Name="InstructorStation" Version="1.0.2.0" />
+  <Library Name="LoadFile" Version="1.0.1.0" />
+  <Library Name="MaterialsHandling" Version="1.0.0.0" />
+  <Library Name="OPCDriver" Version="1.0.1.0" />
+  <Library Name="PSSShaft" Version="1.0.2.0" />
+  <Library Name="SamahnziVisualisation" Version="1.2.1.0" />
+  <Library Name="ShaftConnectionLibrary" Version="1.0.1.0" />
+  <Library Name="ThermoHydraulicLibrary" Version="2.1.1.0" />
+  <Library Name="Transmitter" Version="1.0.3.0" />
+  <Library Name="TransmitterToElectricLibrary" Version="1.0.1.0" />
+  <Library Name="Flownex" Version="8.3.3.0" />
+  <Library Name="Flownex" Version="8.3.3.0" />
+  <Library Name="IPS.Actions" Version="8.3.3.0" />
+  <Library Name="IPS.Alarms" Version="8.3.3.0" />
+  <Library Name="IPS.Backtracking" Version="8.3.3.0" />
+  <Library Name="IPS.DataTransfer" Version="8.3.3.0" />
+  <Library Name="IPS.Designer" Version="8.3.3.0" />
+  <Library Name="IPS.Excel" Version="8.3.3.0" />
+  <Library Name="IPS.ExcelReporting" Version="8.3.3.0" />
+  <Library Name="IPS.Exposers" Version="8.3.3.0" />
+  <Library Name="IPS.Forms" Version="8.3.3.0" />
+  <Library Name="IPS.Logger" Version="8.3.3.0" />
+  <Library Name="IPS.PropertyMonitor" Version="8.3.3.0" />
+  <Library Name="IPS.Scheduler" Version="8.3.3.0" />
+  <Library Name="IPS.Scripting" Version="8.3.3.0" />
+  <Library Name="IPS.Tools" Version="8.3.3.0" />
+  <Library Name="IPS.TrainingEvaluation" Version="8.3.3.0" />
+  <Library Name="IPS.Visualisation" Version="8.3.3.0" />
+  <IPS.Plugin.DrawingPageImpl>
+    <Properties>FitInstructorPage FitOperatorPage FloatByDefault FullscreenInstructorPage FullscreenOperatorPage Identifier InstructorFloatByDefault InstructorPage OperatorFloatByDefault OperatorPage PersistedIdentifierWithTemplate ScaleX ScaleY Size StartupInstructorPage StartupOperatorPage StyleSelector SystemName TID UserDescription ViewPortOrigin </Properties>
+    <Values>  "False" "False" "False" "False" "False" "Pages\C. Miscellaneous\DCS Logic\CT-2-IO to GE DCS.page" "False" "False" "False" "False" "Pages\C. Miscellaneous\DCS Logic\CT-2-IO to GE DCS.page" "1.1" "1.1" "2800, 2000" "False" "False" "*F*Image;Horizontal1;Page.jpg;White;Gray;100*/F**S*DarkGray;Solid;1*/S**T*Black;Microsoft Sans Serif, 10pt;MiddleCenter;*/T*" "" "" "" "658, 669" </Values>
+    <List Name="LayerDrawingDatas">
+      <IPS.Core.LayerDrawingDataList>
+        <ListItems>
+          <IPS.Plugin.LayerDrawingDataImpl>
+            <Properties>Active Identifier PersistedIdentifierWithTemplate TID UserDescription Visible VisibleToEngineersOnly zOrder </Properties>
+            <Item Index="0" Identifier="Design">
+              <Values>  "False" "Design" "Design" "" "" "True" "False" "0" </Values>
+            </Item>
+            <Item Index="1" Identifier="Default">
+              <Values>  "True" "Default" "Default" "" "" "True" "False" "1" </Values>
+              <List Name="ComponentDrawingDatas">
+                <IPS.Core.ComponentDrawingDataList>
+                  <ListItems>
+                    <IPS.Plugin.ComponentDrawingDataImpl>
+                      <Properties>Center ComponentUserName ConfigName DisplayOptionShown FlipX FlipY Identifier Image Merging PersistedIdentifierWithTemplate Rotation Size TID UserDescription zOrder </Properties>
+                      <Item Index="0" Identifier="View1">
+                        <Values>  "235.5, 862.500061" "CT-2-74CR" "Long" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "174.999985, 25" "" "" "0" </Values>
+                      </Item>
+                      <Item Index="1" Identifier="View1">
+                        <Values>  "237.5, 1162.5" "CT-2-74NC/PS" "Long" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "174.999985, 25" "" "" "1" </Values>
+                      </Item>
+                      <Item Index="2" Identifier="View2">
+                        <Values>  "237.5, 212.5" "CT-2-27MC-1" "Long" "ChooseConfiguration" "False" "False" "View2" "" "MASTER" "View2" "0" "175, 25" "" "" "2" </Values>
+                      </Item>
+                      <Item Index="3" Identifier="View2">
+                        <Values>  "237.5, 262.5" "CT-2-27MC-2" "Long" "ChooseConfiguration" "False" "False" "View2" "" "MASTER" "View2" "0" "175, 25" "" "" "3" </Values>
+                      </Item>
+                      <Item Index="4" Identifier="View1">
+                        <Values>  "237.5, 612.500061" "CT-2-30EX" "Long" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "174.999985, 25" "" "" "4" </Values>
+                      </Item>
+                      <Item Index="5" Identifier="View1">
+                        <Values>  "416, 617.000061" "CT-2-c_IO Box_328" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "170, 16" "" "" "5" </Values>
+                      </Item>
+                      <Item Index="6" Identifier="View1">
+                        <Values>  "237.5, 712.500061" "CT-2-74-1//-2" "Long" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "174.999985, 25" "" "" "7" </Values>
+                      </Item>
+                      <Item Index="7" Identifier="View1">
+                        <Values>  "237.5, 762.500061" "CT-2-74A" "Long" "ChooseConfiguration" "False" "False" "View1" "" "INTERFACE" "View1" "0" "174.999985, 25" "" "" "6" </Values>
+                      </Item>
+                      <Item Index="8" Identifier="View1">
+                        <Values>  "237.5, 812.500061" "CT-2-74B" "Long" "ChooseConfiguration" "False" "False" "View1" "" "INTERFACE" "View1" "0" "174.999985, 25" "" "" "8" </Values>
+                      </Item>
+                      <Item Index="9" Identifier="View1">
+                        <Values>  "556, 717.000061" "CT-2-c_IO Box_303" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "462, 16" "" "" "9" </Values>
+                      </Item>
+                      <Item Index="10" Identifier="View1">
+                        <Values>  "552, 767.000061" "CT-2-c_IO Box_304" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "454, 16" "" "" "10" </Values>
+                      </Item>
+                      <Item Index="11" Identifier="View1">
+                        <Values>  "571, 817.000061" "CT-2-c_IO Box_308" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "492, 16" "" "" "11" </Values>
+                      </Item>
+                      <Item Index="12" Identifier="View1">
+                        <Values>  "235.5, 912.500061" "CT-2-74CR-B" "Long" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "174.999985, 25" "" "" "12" </Values>
+                      </Item>
+                      <Item Index="13" Identifier="View1">
+                        <Values>  "237.5, 1212.5" "CT-2-74NC/PS-B" "Long" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "174.999985, 25" "" "" "13" </Values>
+                      </Item>
+                      <Item Index="14" Identifier="View1">
+                        <Values>  "524.5, 1217" "CT-2-c_IO Box_321" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "401, 16" "" "" "14" </Values>
+                      </Item>
+                      <Item Index="15" Identifier="View1">
+                        <Values>  "237.5, 962.500061" "CT-2-74D" "Long" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "174.999985, 25" "" "" "15" </Values>
+                      </Item>
+                      <Item Index="16" Identifier="View1">
+                        <Values>  "637, 967.000061" "CT-2-c_IO Box_325" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "626, 16" "" "" "16" </Values>
+                      </Item>
+                      <Item Index="17" Identifier="View1">
+                        <Values>  "237.5, 1012.5" "CT-2-74G1" "Long" "ChooseConfiguration" "False" "False" "View1" "" "INTERFACE" "View1" "0" "174.999985, 24.999939" "" "" "17" </Values>
+                      </Item>
+                      <Item Index="18" Identifier="View1">
+                        <Values>  "237.5, 1062.5" "CT-2-74G2" "Long" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "174.999985, 25" "" "" "18" </Values>
+                      </Item>
+                      <Item Index="19" Identifier="View1">
+                        <Values>  "637, 1067" "CT-2-c_IO Box_332" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "626, 16" "" "" "19" </Values>
+                      </Item>
+                      <Item Index="20" Identifier="View1">
+                        <Values>  "237.5, 1112.5" "CT-2-74HT-1" "Long" "ChooseConfiguration" "False" "False" "View1" "" "INTERFACE" "View1" "0" "174.999985, 25" "" "" "20" </Values>
+                      </Item>
+                      <Item Index="21" Identifier="View1">
+                        <Values>  "637, 1117" "CT-2-c_IO Box_334" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "626, 16" "" "" "21" </Values>
+                      </Item>
+                      <Item Index="22" Identifier="View1">
+                        <Values>  "700, 125" "CT-2-41AC" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "50, 50" "" "" "22" </Values>
+                      </Item>
+                      <Item Index="23" Identifier="View1">
+                        <Values>  "0, 0" "CT-2-c_Text Box_411" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "60, 60" "" "" "23" </Values>
+                      </Item>
+                      <Item Index="24" Identifier="View1">
+                        <Values>  "571, 858" "CT-2-c_IO Box_85" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "492, 16" "" "" "24" </Values>
+                      </Item>
+                      <Item Index="25" Identifier="View1">
+                        <Values>  "571, 1008" "CT-2-c_IO Box_87" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "492, 16" "" "" "25" </Values>
+                      </Item>
+                      <Item Index="26" Identifier="View1">
+                        <Values>  "571, 1158" "CT-2-c_IO Box_92" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "492, 16" "" "" "26" </Values>
+                      </Item>
+                      <Item Index="27" Identifier="View1">
+                        <Values>  "571, 912.500061" "CT-2-c_IO Box_108" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "492, 16" "" "" "27" </Values>
+                      </Item>
+                      <Item Index="28" Identifier="View1">
+                        <Values>  "571, 208" "CT-2-c_IO Box_114" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "492, 16" "" "" "28" </Values>
+                      </Item>
+                      <Item Index="29" Identifier="View1">
+                        <Values>  "571, 258" "CT-2-c_IO Box_126" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "492, 16" "" "" "29" </Values>
+                      </Item>
+                      <Item Index="30" Identifier="View1">
+                        <Values>  "1362.5, 1037.5" "CT-2-L4CT" "Long" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "175, 25" "" "" "30" </Values>
+                      </Item>
+                      <Item Index="31" Identifier="View1">
+                        <Values>  "1561.5, 1037.5" "CT-2-c_IO Box_294" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "225, 25" "" "" "31" </Values>
+                      </Item>
+                      <Item Index="32" Identifier="View1">
+                        <Values>  "1362.5, 1112.5" "CT-2-L3CP" "Long" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "175, 25" "" "" "32" </Values>
+                      </Item>
+                      <Item Index="33" Identifier="View1">
+                        <Values>  "1562.5, 1112.5" "CT-2-c_IO Box_299" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "225, 25" "" "" "33" </Values>
+                      </Item>
+                      <Item Index="34" Identifier="View2">
+                        <Values>  "1562.5, 1062.5" "CT-2-c_IO Box_268" "" "ChooseConfiguration" "False" "False" "View2" "" "NORMAL" "View2" "0" "225, 25" "" "" "34" </Values>
+                      </Item>
+                      <Item Index="35" Identifier="View1">
+                        <Values>  "1125, 1050" "c_Latch_404" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "50, 50" "" "" "35" </Values>
+                      </Item>
+                      <Item Index="36" Identifier="View1">
+                        <Values>  "962.5, 1037.5" "4TGP_SYS2008MDO" "Long" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "175, 25" "" "" "37" </Values>
+                      </Item>
+                      <Item Index="37" Identifier="View1">
+                        <Values>  "962.5, 1062.5" "4TGP_SYS2007MDO" "Long" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "175, 25" "" "" "38" </Values>
+                      </Item>
+                      <Item Index="38" Identifier="View1">
+                        <Values>  "1175, 1000" "CT-2-c_Text Box_372" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "350, 50" "" "" "42" </Values>
+                      </Item>
+                      <Item Index="39" Identifier="View1">
+                        <Values>  "1175, 1475" "CT-2-c_Text Box_373" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "350, 50" "" "" "43" </Values>
+                      </Item>
+                      <Item Index="40" Identifier="View1">
+                        <Values>  "962.5, 1212.5" "4TGP_SYS2010MDO" "Long" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "175, 25" "" "" "44" </Values>
+                      </Item>
+                      <Item Index="41" Identifier="View1">
+                        <Values>  "1362.5, 1212.5" "CT-2-CA70R4CSRX" "Long" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "175, 25" "" "" "45" </Values>
+                      </Item>
+                      <Item Index="42" Identifier="View1">
+                        <Values>  "962.5, 1262.5" "4TGP_SYS2011MDO" "Long" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "174.999939, 25" "" "" "47" </Values>
+                      </Item>
+                      <Item Index="43" Identifier="View1">
+                        <Values>  "1362.5, 1262.5" "CT-2-CA70R4CSLX" "Long" "ChooseConfiguration" "False" "False" "View1" "" "INTERFACE" "View1" "0" "175, 25" "" "" "48" </Values>
+                      </Item>
+                      <Item Index="44" Identifier="View1">
+                        <Values>  "1562.5, 1212.5" "CT-2-c_IO Box_276" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "225, 50" "" "" "50" </Values>
+                      </Item>
+                      <Item Index="45" Identifier="View1">
+                        <Values>  "1562.5, 1262.5" "CT-2-c_IO Box_285" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "225, 50" "" "" "51" </Values>
+                      </Item>
+                      <Item Index="46" Identifier="View2">
+                        <Values>  "1362.5, 1062.5" "4TGP_SYS2004MDI" "Long" "ChooseConfiguration" "False" "False" "View2" "" "MASTER" "View2" "0" "175, 25" "" "" "52" </Values>
+                      </Item>
+                      <Item Index="47" Identifier="View1">
+                        <Values>  "1225, 1062.5" "c_Not_5" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "50, 25" "" "" "53" </Values>
+                      </Item>
+                      <Item Index="48" Identifier="View1">
+                        <Values>  "962.5, 1312.5" "4TGP_SYS2009MDO" "Long" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "175.000061, 25" "" "" "56" </Values>
+                      </Item>
+                      <Item Index="49" Identifier="View1">
+                        <Values>  "1362.5, 1312.5" "L4_FB" "Long" "ChooseConfiguration" "False" "False" "View1" "" "INTERFACE" "View1" "0" "175, 25" "" "" "57" </Values>
+                      </Item>
+                      <Item Index="50" Identifier="View1">
+                        <Values>  "1575, 1312.5" "c_IO Box_386" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "250, 25" "" "" "58" </Values>
+                      </Item>
+                      <Item Index="51" Identifier="View1">
+                        <Values>  "1175, 1312.5" "c_Not_336" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "INTERFACE" "View1" "0" "50, 25" "" "" "59" </Values>
+                      </Item>
+                    </IPS.Plugin.ComponentDrawingDataImpl>
+                  </ListItems>
+                </IPS.Core.ComponentDrawingDataList>
+              </List>
+              <List Name="LinkDrawingDatas">
+                <IPS.Core.LinkDrawingDataList>
+                  <ListItems>
+                    <IPS.Plugin.LinkDrawingDataImpl>
+                      <Properties>ArrowSize Color EndShape FadeWidth Identifier IsAcrossPages IsBridge IsOnStartPage LinkType LinkUserName Pattern PersistedIdentifierWithTemplate Shadow ShadowColor ShadowScale ShadowXOffset ShadowYOffset StartShape TID UserDescription ViewFromName ViewToName Width zOrder </Properties>
+                      <Item Index="0" Identifier="">
+                        <Values>  "2" "Green" "OpenedArrow" "2" "" "False" "True" "False" "POLY" "c_Integer_IntegerLink_426" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "36" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1150, 1037.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1275, 1037.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="1" Identifier="">
+                        <Values>  "2" "Green" "OpenedArrow" "2" "" "False" "True" "False" "HV" "c_Integer_IntegerLink_428" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "39" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1050, 1037.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1100, 1037.5" </Values>
+                                </Item>
+                                <Item Index="2">
+                                  <Values>  "1100, 1032.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="2" Identifier="">
+                        <Values>  "2" "Green" "OpenedArrow" "2" "" "False" "True" "False" "HV" "c_Integer_IntegerLink_429" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "40" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1050, 1062.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1100, 1062.5" </Values>
+                                </Item>
+                                <Item Index="2">
+                                  <Values>  "1100, 1067.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="3" Identifier="">
+                        <Values>  "2" "Green" "OpenedArrow" "2" "" "False" "True" "False" "HV" "c_Integer_IntegerLink_430" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "41" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1050, 1062.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1075, 1062.5" </Values>
+                                </Item>
+                                <Item Index="2">
+                                  <Values>  "1075, 1112.5" </Values>
+                                </Item>
+                                <Item Index="3">
+                                  <Values>  "1275, 1112.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="4" Identifier="">
+                        <Values>  "2" "Green" "OpenedArrow" "2" "" "False" "True" "False" "POLY" "c_Integer_IntegerLink_436" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "46" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1050, 1212.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1275, 1212.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="5" Identifier="">
+                        <Values>  "2" "Green" "OpenedArrow" "2" "" "False" "True" "False" "POLY" "c_Integer_IntegerLink_437" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "49" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1050, 1262.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1275, 1262.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="6" Identifier="">
+                        <Values>  "2" "Green" "OpenedArrow" "2" "" "False" "True" "False" "POLY" "c_Integer_IntegerLink_6" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View2" "1" "54" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1250, 1062.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1275, 1062.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="7" Identifier="">
+                        <Values>  "2" "Green" "OpenedArrow" "2" "" "False" "True" "False" "HV" "c_Integer_IntegerLink_10" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "55" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1150, 1037.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1175, 1037.5" </Values>
+                                </Item>
+                                <Item Index="2">
+                                  <Values>  "1175, 1062.5" </Values>
+                                </Item>
+                                <Item Index="3">
+                                  <Values>  "1200, 1062.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="8" Identifier="">
+                        <Values>  "2" "Green" "OpenedArrow" "2" "" "False" "True" "False" "POLY" "c_Integer_IntegerLink_390" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "60" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1050, 1312.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1150, 1312.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="9" Identifier="">
+                        <Values>  "2" "Green" "OpenedArrow" "2" "" "False" "True" "False" "POLY" "c_Integer_IntegerLink_391" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "61" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1200, 1312.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1275, 1312.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                    </IPS.Plugin.LinkDrawingDataImpl>
+                  </ListItems>
+                </IPS.Core.LinkDrawingDataList>
+              </List>
+            </Item>
+          </IPS.Plugin.LayerDrawingDataImpl>
+        </ListItems>
+      </IPS.Core.LayerDrawingDataList>
+    </List>
+  </IPS.Plugin.DrawingPageImpl>
+</IPS>

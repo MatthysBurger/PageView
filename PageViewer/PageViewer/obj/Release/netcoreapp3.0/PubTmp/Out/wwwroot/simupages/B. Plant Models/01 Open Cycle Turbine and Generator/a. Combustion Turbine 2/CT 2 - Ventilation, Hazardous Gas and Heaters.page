@@ -1,0 +1,423 @@
+<?xml version="1.0" standalone="yes"?>
+<IPS>
+  <Library Name="IPS" Version="8.3.3.3485" />
+  <Library Name="Actuator" Version="2.0.3.0" />
+  <Library Name="ActuatorToElecLibConnection" Version="1.0.1.0" />
+  <Library Name="AppStarter" Version="1.0.6479.0" />
+  <Library Name="DCS" Version="8.2.0.0" />
+  <Library Name="ElectricalNetworkSolver" Version="10.0.0.0" />
+  <Library Name="FlownexInterfacing" Version="1.0.0.0" />
+  <Library Name="FSEManagerLibrary" Version="1.0.4.0" />
+  <Library Name="Furnace" Version="1.0.1.0" />
+  <Library Name="HardwarePanels" Version="1.0.0.0" />
+  <Library Name="InstructorStation" Version="1.0.2.0" />
+  <Library Name="LoadFile" Version="1.0.1.0" />
+  <Library Name="MaterialsHandling" Version="1.0.0.0" />
+  <Library Name="OPCDriver" Version="1.0.1.0" />
+  <Library Name="PSSShaft" Version="1.0.2.0" />
+  <Library Name="SamahnziVisualisation" Version="1.2.1.0" />
+  <Library Name="ShaftConnectionLibrary" Version="1.0.1.0" />
+  <Library Name="ThermoHydraulicLibrary" Version="2.1.1.0" />
+  <Library Name="Transmitter" Version="1.0.3.0" />
+  <Library Name="TransmitterToElectricLibrary" Version="1.0.1.0" />
+  <Library Name="Flownex" Version="8.3.3.0" />
+  <Library Name="Flownex" Version="8.3.3.0" />
+  <Library Name="IPS.Actions" Version="8.3.3.0" />
+  <Library Name="IPS.Alarms" Version="8.3.3.0" />
+  <Library Name="IPS.Backtracking" Version="8.3.3.0" />
+  <Library Name="IPS.DataTransfer" Version="8.3.3.0" />
+  <Library Name="IPS.Designer" Version="8.3.3.0" />
+  <Library Name="IPS.Excel" Version="8.3.3.0" />
+  <Library Name="IPS.ExcelReporting" Version="8.3.3.0" />
+  <Library Name="IPS.Exposers" Version="8.3.3.0" />
+  <Library Name="IPS.Forms" Version="8.3.3.0" />
+  <Library Name="IPS.Logger" Version="8.3.3.0" />
+  <Library Name="IPS.PropertyMonitor" Version="8.3.3.0" />
+  <Library Name="IPS.Scheduler" Version="8.3.3.0" />
+  <Library Name="IPS.Scripting" Version="8.3.3.0" />
+  <Library Name="IPS.Tools" Version="8.3.3.0" />
+  <Library Name="IPS.TrainingEvaluation" Version="8.3.3.0" />
+  <Library Name="IPS.Visualisation" Version="8.3.3.0" />
+  <IPS.Plugin.DrawingPageImpl>
+    <Properties>FitInstructorPage FitOperatorPage FloatByDefault FullscreenInstructorPage FullscreenOperatorPage Identifier InstructorFloatByDefault InstructorPage OperatorFloatByDefault OperatorPage PersistedIdentifierWithTemplate ScaleX ScaleY Size StartupInstructorPage StartupOperatorPage StyleSelector SystemName TID UserDescription ViewPortOrigin </Properties>
+    <Values>  "True" "False" "False" "False" "False" "Pages\B. Plant Models\01 Open Cycle Turbine and Generator\a. Combustion Turbine 2\CT 2 - Ventilation, Hazardous Gas and Heaters.page" "False" "True" "False" "False" "Pages\B. Plant Models\01 Open Cycle Turbine and Generator\a. Combustion Turbine 2\CT 2 - Ventilation, Hazardous Gas and Heaters.page" "1.2" "1.2" "2800, 2000" "False" "False" "*F*Image;Horizontal1;Page.jpg;White;Gray;100*/F**S*DarkGray;Solid;1*/S**T*Black;Microsoft Sans Serif, 10pt;MiddleCenter;*/T*" "" "" "" "78, 975" </Values>
+    <List Name="LayerDrawingDatas">
+      <IPS.Core.LayerDrawingDataList>
+        <ListItems>
+          <IPS.Plugin.LayerDrawingDataImpl>
+            <Properties>Active Identifier PersistedIdentifierWithTemplate TID UserDescription Visible VisibleToEngineersOnly zOrder </Properties>
+            <Item Index="0" Identifier="Design">
+              <Values>  "False" "Design" "Design" "" "" "True" "False" "0" </Values>
+            </Item>
+            <Item Index="1" Identifier="Default">
+              <Values>  "True" "Default" "Default" "" "" "True" "False" "1" </Values>
+              <List Name="ComponentDrawingDatas">
+                <IPS.Core.ComponentDrawingDataList>
+                  <ListItems>
+                    <IPS.Plugin.ComponentDrawingDataImpl>
+                      <Properties>Center ComponentUserName ConfigName DisplayOptionShown FlipX FlipY Identifier Image Merging PersistedIdentifierWithTemplate Rotation Size TID UserDescription zOrder </Properties>
+                      <Item Index="0" Identifier="View1">
+                        <Values>  "2475, 1875" "cCT-2-4TGK_Text Box_143" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "450, 100" "" "" "0" </Values>
+                      </Item>
+                      <Item Index="1" Identifier="View1">
+                        <Values>  "175, 125" "CT-2-23BL-1" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "50, 50" "" "" "1" </Values>
+                      </Item>
+                      <Item Index="2" Identifier="View1">
+                        <Values>  "175, 250" "CT-2-23BL-2" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "50, 50" "" "" "2" </Values>
+                      </Item>
+                      <Item Index="3" Identifier="View1">
+                        <Values>  "231, 75" "cCT-2-4TGK_IO Box_150" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "156, 16" "" "" "3" </Values>
+                      </Item>
+                      <Item Index="4" Identifier="View1">
+                        <Values>  "250, 92" "cCT-2-4TGK_IO Box_151" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "194, 16" "" "" "4" </Values>
+                      </Item>
+                      <Item Index="5" Identifier="View1">
+                        <Values>  "228, 201" "cCT-2-4TGK_IO Box_152" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "156, 16" "" "" "5" </Values>
+                      </Item>
+                      <Item Index="6" Identifier="View1">
+                        <Values>  "258, 217" "cCT-2-4TGK_IO Box_153" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "216, 16" "" "" "6" </Values>
+                      </Item>
+                      <Item Index="7" Identifier="View1">
+                        <Values>  "175, 400" "CT-2-23BT-1" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "50, 50" "" "" "7" </Values>
+                      </Item>
+                      <Item Index="8" Identifier="View1">
+                        <Values>  "232.666687, 351" "cCT-2-4TGK_IO Box_156" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "156, 16" "" "" "8" </Values>
+                      </Item>
+                      <Item Index="9" Identifier="View1">
+                        <Values>  "275, 367" "cCT-2-4TGK_IO Box_157" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "240.666656, 16" "" "" "9" </Values>
+                      </Item>
+                      <Item Index="10" Identifier="View1">
+                        <Values>  "175, 525" "CT-2-23BT-2" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "50, 50" "" "" "10" </Values>
+                      </Item>
+                      <Item Index="11" Identifier="View1">
+                        <Values>  "228, 476" "cCT-2-4TGK_IO Box_160" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "156, 16" "" "" "11" </Values>
+                      </Item>
+                      <Item Index="12" Identifier="View1">
+                        <Values>  "269.3333, 491.777771" "cCT-2-4TGK_IO Box_161" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "238.666656, 16.444458" "" "" "12" </Values>
+                      </Item>
+                      <Item Index="13" Identifier="View1">
+                        <Values>  "175.333344, 675" "CT-2-23HL-3" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "50, 50" "" "" "13" </Values>
+                      </Item>
+                      <Item Index="14" Identifier="View1">
+                        <Values>  "228, 626" "cCT-2-4TGK_IO Box_171" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "156, 16" "" "" "14" </Values>
+                      </Item>
+                      <Item Index="15" Identifier="View1">
+                        <Values>  "270.333344, 642" "cCT-2-4TGK_IO Box_174" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "240.666672, 16" "" "" "15" </Values>
+                      </Item>
+                      <Item Index="16" Identifier="View1">
+                        <Values>  "175, 825" "CT-2-23HT-3A" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "50, 50" "" "" "16" </Values>
+                      </Item>
+                      <Item Index="17" Identifier="View1">
+                        <Values>  "228, 776" "cCT-2-4TGK_IO Box_177" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "155.999985, 16" "" "" "17" </Values>
+                      </Item>
+                      <Item Index="18" Identifier="View1">
+                        <Values>  "270.3333, 792" "cCT-2-4TGK_IO Box_178" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "240.666656, 16" "" "" "18" </Values>
+                      </Item>
+                      <Item Index="19" Identifier="View1">
+                        <Values>  "175.000015, 950" "CT-2-23HT-3B" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "50, 50" "" "" "19" </Values>
+                      </Item>
+                      <Item Index="20" Identifier="View1">
+                        <Values>  "228, 901" "cCT-2-4TGK_IO Box_179" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "155.999985, 16" "" "" "20" </Values>
+                      </Item>
+                      <Item Index="21" Identifier="View1">
+                        <Values>  "269.3333, 916.7778" "cCT-2-4TGK_IO Box_180" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "238.666656, 16.444458" "" "" "21" </Values>
+                      </Item>
+                      <Item Index="22" Identifier="View1">
+                        <Values>  "175.000015, 1100" "CT-2-23VG-1" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "50, 50" "" "" "22" </Values>
+                      </Item>
+                      <Item Index="23" Identifier="View1">
+                        <Values>  "228, 1051" "cCT-2-4TGK_IO Box_183" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "155.999985, 16" "" "" "23" </Values>
+                      </Item>
+                      <Item Index="24" Identifier="View1">
+                        <Values>  "270.3333, 1067" "cCT-2-4TGK_IO Box_184" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "240.666656, 16" "" "" "24" </Values>
+                      </Item>
+                      <Item Index="25" Identifier="View1">
+                        <Values>  "175.000031, 1225" "CT-2-23VG-2" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "50, 50" "" "" "25" </Values>
+                      </Item>
+                      <Item Index="26" Identifier="View1">
+                        <Values>  "228, 1176" "cCT-2-4TGK_IO Box_185" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "155.999985, 16" "" "" "26" </Values>
+                      </Item>
+                      <Item Index="27" Identifier="View1">
+                        <Values>  "269.3333, 1191.77783" "cCT-2-4TGK_IO Box_186" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "238.666656, 16.444458" "" "" "27" </Values>
+                      </Item>
+                      <Item Index="28" Identifier="View1">
+                        <Values>  "175.000046, 1375" "CT-2-23VS-3" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "50, 50" "" "" "28" </Values>
+                      </Item>
+                      <Item Index="29" Identifier="View1">
+                        <Values>  "228, 1326" "cCT-2-4TGK_IO Box_188" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "155.999985, 16" "" "" "29" </Values>
+                      </Item>
+                      <Item Index="30" Identifier="View1">
+                        <Values>  "269.3333, 1341.77783" "cCT-2-4TGK_IO Box_189" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "238.666656, 16.444458" "" "" "30" </Values>
+                      </Item>
+                      <Item Index="31" Identifier="View1">
+                        <Values>  "412.500031, 400" "CT-2-TS 26BT-1" "(Default)" "ChooseImage" "False" "False" "View1" "SP_Transmitters\Temp_S.jpg" "NORMAL" "View1" "0" "74.99994, 37.5" "" "" "31" </Values>
+                      </Item>
+                      <Item Index="32" Identifier="View1">
+                        <Values>  "412.500031, 525" "CT-2-TS 26BT-2" "(Default)" "ChooseImage" "False" "False" "View1" "SP_Transmitters\Temp_S.jpg" "NORMAL" "View1" "0" "74.99994, 37.5" "" "" "32" </Values>
+                      </Item>
+                      <Item Index="33" Identifier="View1">
+                        <Values>  "412.499969, 675" "CT-2-TS 26HL-3" "(Default)" "ChooseImage" "False" "False" "View1" "SP_Transmitters\Temp_S.jpg" "NORMAL" "View1" "0" "74.99994, 37.5" "" "" "33" </Values>
+                      </Item>
+                      <Item Index="34" Identifier="View1">
+                        <Values>  "412.499969, 825" "CT-2-TS 26HT-3" "(Default)" "ChooseImage" "False" "False" "View1" "SP_Transmitters\Temp_S.jpg" "NORMAL" "View1" "0" "74.99994, 37.5" "" "" "34" </Values>
+                      </Item>
+                      <Item Index="35" Identifier="View1">
+                        <Values>  "487.500061, 1098.75" "CT-2-PS 63AG-1" "(Default)" "ChooseImage" "False" "False" "View1" "SP_Transmitters\Pres_S.jpg" "NORMAL" "View1" "0" "74.99991, 37.5" "" "" "35" </Values>
+                      </Item>
+                      <Item Index="36" Identifier="View1">
+                        <Values>  "487.500061, 1223.75" "CT-2-PS 63AG-2" "(Default)" "ChooseImage" "False" "False" "View1" "SP_Transmitters\Pres_S.jpg" "NORMAL" "View1" "0" "74.99991, 37.5" "" "" "36" </Values>
+                      </Item>
+                      <Item Index="37" Identifier="View1">
+                        <Values>  "762.5, 1100" "CT-2-PS 63AT-1" "(Default)" "ChooseImage" "False" "False" "View1" "SP_Transmitters\Pres_S.jpg" "NORMAL" "View1" "0" "75, 37.5" "" "" "37" </Values>
+                      </Item>
+                      <Item Index="38" Identifier="View1">
+                        <Values>  "762.5, 1225" "CT-2-PS 63AT-2" "(Default)" "ChooseImage" "False" "False" "View1" "SP_Transmitters\Pres_S.jpg" "NORMAL" "View1" "0" "74.99994, 37.5" "" "" "38" </Values>
+                      </Item>
+                      <Item Index="39" Identifier="View1">
+                        <Values>  "762.5, 125" "CT-2-PS 63AT-3" "(Default)" "ChooseImage" "False" "False" "View1" "SP_Transmitters\Pres_S.jpg" "NORMAL" "View1" "0" "75, 37.5" "" "" "39" </Values>
+                      </Item>
+                      <Item Index="40" Identifier="View1">
+                        <Values>  "762.5, 250" "CT-2-PS 63AT-4" "(Default)" "ChooseImage" "False" "False" "View1" "SP_Transmitters\Pres_S.jpg" "NORMAL" "View1" "0" "75, 37.4999847" "" "" "40" </Values>
+                      </Item>
+                      <Item Index="41" Identifier="View1">
+                        <Values>  "675, 125" "CT-2-88BL-1" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "50, 50" "" "" "41" </Values>
+                      </Item>
+                      <Item Index="42" Identifier="View1">
+                        <Values>  "675, 250" "CT-2-88BL-2" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "50, 50" "" "" "42" </Values>
+                      </Item>
+                      <Item Index="43" Identifier="View1">
+                        <Values>  "737.5, 92" "cCT-2-4TGK_IO Box_206" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "175, 16" "" "" "43" </Values>
+                      </Item>
+                      <Item Index="44" Identifier="View1">
+                        <Values>  "728, 75" "cCT-2-4TGK_IO Box_207" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "156, 16" "" "" "44" </Values>
+                      </Item>
+                      <Item Index="45" Identifier="View1">
+                        <Values>  "728, 201" "cCT-2-4TGK_IO Box_208" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "156, 16" "" "" "45" </Values>
+                      </Item>
+                      <Item Index="46" Identifier="View1">
+                        <Values>  "762.5, 217" "cCT-2-4TGK_IO Box_209" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "225, 16" "" "" "46" </Values>
+                      </Item>
+                      <Item Index="47" Identifier="View1">
+                        <Values>  "675, 400" "CT-2-88BT-1" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "50, 50" "" "" "47" </Values>
+                      </Item>
+                      <Item Index="48" Identifier="View1">
+                        <Values>  "675, 525" "CT-2-88BT-2" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "50, 50" "" "" "48" </Values>
+                      </Item>
+                      <Item Index="49" Identifier="View1">
+                        <Values>  "737.5, 367" "cCT-2-4TGK_IO Box_218" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "175, 16" "" "" "49" </Values>
+                      </Item>
+                      <Item Index="50" Identifier="View1">
+                        <Values>  "728, 350" "cCT-2-4TGK_IO Box_219" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "156, 16" "" "" "50" </Values>
+                      </Item>
+                      <Item Index="51" Identifier="View1">
+                        <Values>  "728, 476" "cCT-2-4TGK_IO Box_226" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "156, 16" "" "" "51" </Values>
+                      </Item>
+                      <Item Index="52" Identifier="View1">
+                        <Values>  "762.5, 492" "cCT-2-4TGK_IO Box_227" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "225, 16" "" "" "52" </Values>
+                      </Item>
+                      <Item Index="53" Identifier="View1">
+                        <Values>  "675, 1100" "CT-2-88VG-1" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "50, 50" "" "" "53" </Values>
+                      </Item>
+                      <Item Index="54" Identifier="View1">
+                        <Values>  "675, 1225" "CT-2-88VG-2" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "50, 50" "" "" "54" </Values>
+                      </Item>
+                      <Item Index="55" Identifier="View1">
+                        <Values>  "737.5, 1067" "cCT-2-4TGK_IO Box_233" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "175, 16" "" "" "55" </Values>
+                      </Item>
+                      <Item Index="56" Identifier="View1">
+                        <Values>  "728, 1050" "cCT-2-4TGK_IO Box_234" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "156, 16" "" "" "56" </Values>
+                      </Item>
+                      <Item Index="57" Identifier="View1">
+                        <Values>  "728, 1176" "cCT-2-4TGK_IO Box_235" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "156, 16" "" "" "57" </Values>
+                      </Item>
+                      <Item Index="58" Identifier="View1">
+                        <Values>  "762.5, 1192" "cCT-2-4TGK_IO Box_236" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "225, 16" "" "" "58" </Values>
+                      </Item>
+                      <Item Index="59" Identifier="View1">
+                        <Values>  "175.000046, 1525" "CT-2-23HG-1" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "50, 50" "" "" "59" </Values>
+                      </Item>
+                      <Item Index="60" Identifier="View1">
+                        <Values>  "228, 1476" "cCT-2-4TGK_IO Box_243" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "155.999985, 16" "" "" "60" </Values>
+                      </Item>
+                      <Item Index="61" Identifier="View1">
+                        <Values>  "269.3333, 1491.77783" "cCT-2-4TGK_IO Box_244" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "238.666656, 16.444458" "" "" "61" </Values>
+                      </Item>
+                      <Item Index="62" Identifier="View1">
+                        <Values>  "175.000061, 1650" "CT-2-23HG-2" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "50, 50" "" "" "62" </Values>
+                      </Item>
+                      <Item Index="63" Identifier="View1">
+                        <Values>  "228, 1601" "cCT-2-4TGK_IO Box_245" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "155.999985, 16" "" "" "63" </Values>
+                      </Item>
+                      <Item Index="64" Identifier="View1">
+                        <Values>  "269.3333, 1616.77783" "cCT-2-4TGK_IO Box_246" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "238.666656, 16.444458" "" "" "64" </Values>
+                      </Item>
+                      <Item Index="65" Identifier="View1">
+                        <Values>  "175.000076, 1775" "CT-2-23KE-1" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "50, 50" "" "" "65" </Values>
+                      </Item>
+                      <Item Index="66" Identifier="View1">
+                        <Values>  "228, 1726" "cCT-2-4TGK_IO Box_248" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "155.999985, 16" "" "" "66" </Values>
+                      </Item>
+                      <Item Index="67" Identifier="View1">
+                        <Values>  "269.3333, 1741.77783" "cCT-2-4TGK_IO Box_249" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "238.666656, 16.444458" "" "" "67" </Values>
+                      </Item>
+                      <Item Index="68" Identifier="View1">
+                        <Values>  "675.000061, 1525" "CT-2-23TW-1" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "50, 50" "" "" "68" </Values>
+                      </Item>
+                      <Item Index="69" Identifier="View1">
+                        <Values>  "728, 1476" "cCT-2-4TGK_IO Box_418" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "156, 16" "" "" "69" </Values>
+                      </Item>
+                      <Item Index="70" Identifier="View1">
+                        <Values>  "769.3333, 1491.77783" "cCT-2-4TGK_IO Box_422" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "238.666626, 16.444458" "" "" "70" </Values>
+                      </Item>
+                      <Item Index="71" Identifier="View1">
+                        <Values>  "675.000061, 1650" "CT-2-23WS-1" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "50, 50" "" "" "71" </Values>
+                      </Item>
+                      <Item Index="72" Identifier="View1">
+                        <Values>  "728, 1601" "cCT-2-4TGK_IO Box_432" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "156, 16" "" "" "72" </Values>
+                      </Item>
+                      <Item Index="73" Identifier="View1">
+                        <Values>  "769.3333, 1616.77783" "cCT-2-4TGK_IO Box_434" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "238.666626, 16.444458" "" "" "73" </Values>
+                      </Item>
+                      <Item Index="74" Identifier="View1">
+                        <Values>  "887.5, 1650" "CT-2-TS 26VW-1" "(Default)" "ChooseImage" "False" "False" "View1" "SP_Transmitters\Temp_S.jpg" "NORMAL" "View1" "0" "74.99994, 37.5" "" "" "74" </Values>
+                      </Item>
+                      <Item Index="75" Identifier="View1">
+                        <Values>  "962.5, 1650" "CT-2-TS 26VW-2" "(Default)" "ChooseImage" "False" "False" "View1" "SP_Transmitters\Temp_S.jpg" "NORMAL" "View1" "0" "74.99994, 37.5" "" "" "75" </Values>
+                      </Item>
+                      <Item Index="76" Identifier="View1">
+                        <Values>  "1037.5, 1650" "CT-2-TS 26WS-1" "(Default)" "ChooseImage" "False" "False" "View1" "SP_Transmitters\Temp_S.jpg" "NORMAL" "View1" "0" "75, 37.5" "" "" "76" </Values>
+                      </Item>
+                      <Item Index="77" Identifier="View1">
+                        <Values>  "1112.5, 1650" "CT-2-TS 26WS-2" "(Default)" "ChooseImage" "False" "False" "View1" "SP_Transmitters\Temp_S.jpg" "NORMAL" "View1" "0" "75, 37.5" "" "" "77" </Values>
+                      </Item>
+                      <Item Index="78" Identifier="View1">
+                        <Values>  "387.499969, 1375" "CT-2-TS 26VS-3" "(Default)" "ChooseImage" "False" "False" "View1" "SP_Transmitters\Temp_S.jpg" "NORMAL" "View1" "0" "74.99994, 37.5" "" "" "78" </Values>
+                      </Item>
+                      <Item Index="79" Identifier="View1">
+                        <Values>  "2612.5, 100" "CT-2-Text Box - 212_SB" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "175, 50" "" "" "79" </Values>
+                      </Item>
+                      <Item Index="80" Identifier="View1">
+                        <Values>  "2612.5, 143.75" "CT-2-VT 45HA-7" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "75, 37.5" "" "" "80" </Values>
+                      </Item>
+                      <Item Index="81" Identifier="View1">
+                        <Values>  "2612.5, 181.25" "CT-2-VT 45HA-8" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "75, 37.5" "" "" "81" </Values>
+                      </Item>
+                      <Item Index="82" Identifier="View1">
+                        <Values>  "2437.5, 143.75" "CT-2-VT 45HT-1" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "75, 37.5" "" "" "82" </Values>
+                      </Item>
+                      <Item Index="83" Identifier="View1">
+                        <Values>  "2437.5, 181.25" "CT-2-VT 45HT-2" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "75, 37.5" "" "" "83" </Values>
+                      </Item>
+                      <Item Index="84" Identifier="View1">
+                        <Values>  "2437.5, 100" "cCT-2-4TGK_Text Box_4" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "175, 50" "" "" "84" </Values>
+                      </Item>
+                      <Item Index="85" Identifier="View1">
+                        <Values>  "2012.18311, 1862.5" "cCT-2-4TGK_Open File/Program Button_297" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "275.6338, 25" "" "" "85" </Values>
+                      </Item>
+                      <Item Index="86" Identifier="View1">
+                        <Values>  "2012.18311, 1887.5" "cCT-2-4TGK_Open File/Program Button_298" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "275.6338, 25" "" "" "86" </Values>
+                      </Item>
+                      <Item Index="87" Identifier="View1">
+                        <Values>  "837.5, 400" "CT-2-49BT-1" "(Default)" "ChooseImage" "False" "False" "View1" "SP_Transmitters\Gen_S.jpg" "MASTER" "View1" "0" "75, 37.5" "" "" "87" </Values>
+                      </Item>
+                      <Item Index="88" Identifier="View1">
+                        <Values>  "837.5, 525" "CT-2-49BT-2" "(Default)" "ChooseImage" "False" "False" "View1" "SP_Transmitters\Gen_S.jpg" "MASTER" "View1" "0" "75, 37.5" "" "" "88" </Values>
+                      </Item>
+                      <Item Index="89" Identifier="View1">
+                        <Values>  "837.5, 1099.75" "CT-2-49VG-1" "(Default)" "ChooseImage" "False" "False" "View1" "SP_Transmitters\Gen_S.jpg" "MASTER" "View1" "0" "75, 37.5" "" "" "89" </Values>
+                      </Item>
+                      <Item Index="90" Identifier="View1">
+                        <Values>  "837.5, 1224.75" "CT-2-49VG-2" "(Default)" "ChooseImage" "False" "False" "View1" "SP_Transmitters\Gen_S.jpg" "MASTER" "View1" "0" "75, 37.5" "" "" "90" </Values>
+                      </Item>
+                    </IPS.Plugin.ComponentDrawingDataImpl>
+                  </ListItems>
+                </IPS.Core.ComponentDrawingDataList>
+              </List>
+              <List Name="LinkDrawingDatas">
+                <IPS.Core.LinkDrawingDataList>
+                  <ListItems>
+                    <IPS.Plugin.LinkDrawingDataImpl>
+                      <Properties>ArrowSize Color EndShape FadeWidth Identifier IsAcrossPages IsBridge IsOnStartPage LinkType LinkUserName Pattern PersistedIdentifierWithTemplate Shadow ShadowColor ShadowScale ShadowXOffset ShadowYOffset StartShape TID UserDescription ViewFromName ViewToName Width zOrder </Properties>
+                      <Item Index="0" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "POLY" "cCT-2-4TGK_DataTransferLink_432" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View1" "View1" "1" "91" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "700, 1100" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "725, 1100" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="1" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "POLY" "cCT-2-4TGK_DataTransferLink_433" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View1" "View1" "1" "92" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "700, 1225" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "725, 1225" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="2" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "POLY" "c_DataTransferLink_117" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View1" "View1" "1" "93" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "700, 125" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "725, 125" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="3" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "POLY" "c_DataTransferLink_118" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View1" "View1" "1" "94" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "700, 250" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "725, 250" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                    </IPS.Plugin.LinkDrawingDataImpl>
+                  </ListItems>
+                </IPS.Core.LinkDrawingDataList>
+              </List>
+            </Item>
+          </IPS.Plugin.LayerDrawingDataImpl>
+        </ListItems>
+      </IPS.Core.LayerDrawingDataList>
+    </List>
+  </IPS.Plugin.DrawingPageImpl>
+</IPS>

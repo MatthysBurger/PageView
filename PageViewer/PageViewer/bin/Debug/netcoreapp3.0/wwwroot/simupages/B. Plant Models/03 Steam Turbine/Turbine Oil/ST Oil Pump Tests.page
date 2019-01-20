@@ -1,0 +1,552 @@
+<?xml version="1.0" standalone="yes"?>
+<IPS>
+  <Library Name="IPS" Version="8.3.3.3485" />
+  <Library Name="Actuator" Version="2.0.3.0" />
+  <Library Name="ActuatorToElecLibConnection" Version="1.0.1.0" />
+  <Library Name="AppStarter" Version="1.0.6479.0" />
+  <Library Name="DCS" Version="8.2.0.0" />
+  <Library Name="ElectricalNetworkSolver" Version="10.0.0.0" />
+  <Library Name="FlownexInterfacing" Version="1.0.0.0" />
+  <Library Name="FSEManagerLibrary" Version="1.0.4.0" />
+  <Library Name="Furnace" Version="1.0.1.0" />
+  <Library Name="HardwarePanels" Version="1.0.0.0" />
+  <Library Name="InstructorStation" Version="1.0.2.0" />
+  <Library Name="LoadFile" Version="1.0.1.0" />
+  <Library Name="MaterialsHandling" Version="1.0.0.0" />
+  <Library Name="OPCDriver" Version="1.0.1.0" />
+  <Library Name="PSSShaft" Version="1.0.2.0" />
+  <Library Name="SamahnziVisualisation" Version="1.2.1.0" />
+  <Library Name="ShaftConnectionLibrary" Version="1.0.1.0" />
+  <Library Name="ThermoHydraulicLibrary" Version="2.1.1.0" />
+  <Library Name="Transmitter" Version="1.0.3.0" />
+  <Library Name="TransmitterToElectricLibrary" Version="1.0.1.0" />
+  <Library Name="Flownex" Version="8.3.3.0" />
+  <Library Name="Flownex" Version="8.3.3.0" />
+  <Library Name="IPS.Actions" Version="8.3.3.0" />
+  <Library Name="IPS.Alarms" Version="8.3.3.0" />
+  <Library Name="IPS.Backtracking" Version="8.3.3.0" />
+  <Library Name="IPS.DataTransfer" Version="8.3.3.0" />
+  <Library Name="IPS.Designer" Version="8.3.3.0" />
+  <Library Name="IPS.Excel" Version="8.3.3.0" />
+  <Library Name="IPS.ExcelReporting" Version="8.3.3.0" />
+  <Library Name="IPS.Exposers" Version="8.3.3.0" />
+  <Library Name="IPS.Forms" Version="8.3.3.0" />
+  <Library Name="IPS.Logger" Version="8.3.3.0" />
+  <Library Name="IPS.PropertyMonitor" Version="8.3.3.0" />
+  <Library Name="IPS.Scheduler" Version="8.3.3.0" />
+  <Library Name="IPS.Scripting" Version="8.3.3.0" />
+  <Library Name="IPS.Tools" Version="8.3.3.0" />
+  <Library Name="IPS.TrainingEvaluation" Version="8.3.3.0" />
+  <Library Name="IPS.Visualisation" Version="8.3.3.0" />
+  <IPS.Plugin.DrawingPageImpl>
+    <Properties>FitInstructorPage FitOperatorPage FloatByDefault FullscreenInstructorPage FullscreenOperatorPage Identifier InstructorFloatByDefault InstructorPage OperatorFloatByDefault OperatorPage PersistedIdentifierWithTemplate ScaleX ScaleY Size StartupInstructorPage StartupOperatorPage StyleSelector SystemName TID UserDescription ViewPortOrigin </Properties>
+    <Values>  "True" "False" "False" "False" "False" "Pages\B. Plant Models\03 Steam Turbine\Turbine Oil\ST Oil Pump Tests.page" "False" "True" "False" "False" "Pages\B. Plant Models\03 Steam Turbine\Turbine Oil\ST Oil Pump Tests.page" "0.4999999" "0.4999999" "2800, 2000" "False" "False" "*F*Image;Horizontal1;Page.jpg;White;Gray;100*/F**S*DarkGray;Solid;1*/S**T*Black;Microsoft Sans Serif, 10pt;MiddleCenter;*/T*" "" "" "" "-31, 0" </Values>
+    <List Name="LayerDrawingDatas">
+      <IPS.Core.LayerDrawingDataList>
+        <ListItems>
+          <IPS.Plugin.LayerDrawingDataImpl>
+            <Properties>Active Identifier PersistedIdentifierWithTemplate TID UserDescription Visible VisibleToEngineersOnly zOrder </Properties>
+            <Item Index="0" Identifier="Design">
+              <Values>  "False" "Design" "Design" "" "" "True" "False" "0" </Values>
+            </Item>
+            <Item Index="1" Identifier="Default">
+              <Values>  "True" "Default" "Default" "" "" "True" "False" "1" </Values>
+              <List Name="ComponentDrawingDatas">
+                <IPS.Core.ComponentDrawingDataList>
+                  <ListItems>
+                    <IPS.Plugin.ComponentDrawingDataImpl>
+                      <Properties>Center ComponentUserName ConfigName DisplayOptionShown FlipX FlipY Identifier Image Merging PersistedIdentifierWithTemplate Rotation Size TID UserDescription zOrder </Properties>
+                      <Item Index="0" Identifier="View3">
+                        <Values>  "1600, 500" "4TGD-P-1" "(Default)" "ChooseConfiguration" "False" "False" "View3" "" "MASTER" "View3" "0" "50, 50" "" "" "0" </Values>
+                      </Item>
+                      <Item Index="1" Identifier="View3">
+                        <Values>  "1600, 575" "4TGD-P-2" "(Default)" "ChooseConfiguration" "False" "False" "View3" "" "MASTER" "View3" "0" "50, 50" "" "" "1" </Values>
+                      </Item>
+                      <Item Index="2" Identifier="View3">
+                        <Values>  "1600, 775" "4TGD-P-3" "(Default)" "ChooseConfiguration" "False" "False" "View3" "" "MASTER" "View3" "0" "50, 50" "" "" "2" </Values>
+                      </Item>
+                      <Item Index="3" Identifier="View1">
+                        <Values>  "1300, 850" "FY-266" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "50, 50" "" "" "3" </Values>
+                      </Item>
+                      <Item Index="4" Identifier="View1">
+                        <Values>  "1150, 850" "cTGC_IO Box_1858" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "275, 50" "" "" "4" </Values>
+                      </Item>
+                      <Item Index="5" Identifier="View2">
+                        <Values>  "1600, 1150" "4TGF-HFPM-A" "(Default)" "ChooseConfiguration" "False" "False" "View2" "" "INTERFACE" "View2" "0" "50, 50" "" "" "5" </Values>
+                      </Item>
+                      <Item Index="6" Identifier="View2">
+                        <Values>  "1600, 1225" "4TGF-HFPM-B" "(Default)" "ChooseConfiguration" "False" "False" "View2" "" "INTERFACE" "View2" "0" "50, 50" "" "" "6" </Values>
+                      </Item>
+                      <Item Index="7" Identifier="View1">
+                        <Values>  "1300, 625" "FY-265" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "50, 50" "" "" "7" </Values>
+                      </Item>
+                      <Item Index="8" Identifier="View1">
+                        <Values>  "1137.5, 625" "cTGC_IO Box_1860" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "275, 50" "" "" "8" </Values>
+                      </Item>
+                      <Item Index="9" Identifier="View1">
+                        <Values>  "1300, 1275" "FY-281" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "50, 50" "" "" "9" </Values>
+                      </Item>
+                      <Item Index="10" Identifier="View1">
+                        <Values>  "1137.5, 1275" "cTGC_IO Box_1862" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "275, 50" "" "" "10" </Values>
+                      </Item>
+                      <Item Index="11" Identifier="View1">
+                        <Values>  "1500, 500" "cTGC_2 Input OR Gate_1863" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "50, 50" "" "" "11" </Values>
+                      </Item>
+                      <Item Index="12" Identifier="View1">
+                        <Values>  "1500, 575" "cTGC_2 Input OR Gate_1865" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "50, 50" "" "" "13" </Values>
+                      </Item>
+                      <Item Index="13" Identifier="View1">
+                        <Values>  "1250, 487.5" "4TGD_P0001CSR" "Long" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "150, 25" "" "" "15" </Values>
+                      </Item>
+                      <Item Index="14" Identifier="View1">
+                        <Values>  "1250, 562.5" "4TGD_P0002CSR" "Long" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "150, 25" "" "" "17" </Values>
+                      </Item>
+                      <Item Index="15" Identifier="View1">
+                        <Values>  "1500, 1150" "cTGC_2 Input OR Gate_1876" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "50, 50" "" "" "21" </Values>
+                      </Item>
+                      <Item Index="16" Identifier="View1">
+                        <Values>  "1500, 1225" "cTGC_2 Input OR Gate_1877" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "INTERFACE" "View1" "0" "50, 50" "" "" "23" </Values>
+                      </Item>
+                      <Item Index="17" Identifier="View1">
+                        <Values>  "1250, 1137.5" "4TGF_P001ACSR" "Long" "ChooseConfiguration" "False" "False" "View1" "" "INTERFACE" "View1" "0" "150, 25" "" "" "25" </Values>
+                      </Item>
+                      <Item Index="18" Identifier="View1">
+                        <Values>  "1250, 1212.5" "4TGF_P001BCSR" "Long" "ChooseConfiguration" "False" "False" "View1" "" "INTERFACE" "View1" "0" "150, 25" "" "" "27" </Values>
+                      </Item>
+                      <Item Index="19" Identifier="View1">
+                        <Values>  "1500, 775" "cTGC_2 Input OR Gate_1884" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "50, 50" "" "" "31" </Values>
+                      </Item>
+                      <Item Index="20" Identifier="View1">
+                        <Values>  "2475, 1875" "cTGC_Text Box_1889" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "300, 50" "" "" "33" </Values>
+                      </Item>
+                      <Item Index="21" Identifier="View2">
+                        <Values>  "1275, 743.75" "PS-266" "(Default)" "ChooseImage" "False" "False" "View2" "SP_Transmitters\Pres_S.jpg" "NORMAL" "View2" "0" "100, 37.5" "" "" "35" </Values>
+                      </Item>
+                      <Item Index="22" Identifier="View2">
+                        <Values>  "1600, 950" "4TGD-P-4" "(Default)" "ChooseConfiguration" "False" "False" "View2" "" "MASTER" "View2" "0" "50, 50" "" "" "36" </Values>
+                      </Item>
+                      <Item Index="23" Identifier="View1">
+                        <Values>  "1500, 950" "cTGC_2 Input OR Gate_32" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "50, 50" "" "" "37" </Values>
+                      </Item>
+                      <Item Index="24" Identifier="View1">
+                        <Values>  "1400, 775" "cTGC_Off Delay Timer_37" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "50, 50" "" "" "39" </Values>
+                      </Item>
+                      <Item Index="25" Identifier="View1">
+                        <Values>  "1400, 950" "cTGC_Off Delay Timer_40" "(Default)" "ChooseConfiguration" "False" "False" "View1" "" "MASTER" "View1" "0" "50, 50" "" "" "41" </Values>
+                      </Item>
+                    </IPS.Plugin.ComponentDrawingDataImpl>
+                  </ListItems>
+                </IPS.Core.ComponentDrawingDataList>
+              </List>
+              <List Name="LinkDrawingDatas">
+                <IPS.Core.LinkDrawingDataList>
+                  <ListItems>
+                    <IPS.Plugin.LinkDrawingDataImpl>
+                      <Properties>ArrowSize Color EndShape FadeWidth Identifier IsAcrossPages IsBridge IsOnStartPage LinkType LinkUserName Pattern PersistedIdentifierWithTemplate Shadow ShadowColor ShadowScale ShadowXOffset ShadowYOffset StartShape TID UserDescription ViewFromName ViewToName Width zOrder </Properties>
+                      <Item Index="0" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "POLY" "cTGC_DataTransferLink_1864" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View1" "View3" "1" "12" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1525, 500" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1575, 500" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="1" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "POLY" "cTGC_DataTransferLink_1866" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View1" "View3" "1" "14" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1525, 575" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1575, 575" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="2" Identifier="">
+                        <Values>  "2" "Green" "OpenedArrow" "2" "" "False" "True" "False" "HV" "cTGC_Integer_IntegerLink_1869" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "16" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1325, 487.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1475, 487.5" </Values>
+                                </Item>
+                                <Item Index="2">
+                                  <Values>  "1475, 483.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="3" Identifier="">
+                        <Values>  "2" "Green" "OpenedArrow" "2" "" "False" "True" "False" "HV" "cTGC_Integer_IntegerLink_1871" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "18" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1325, 562.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1475, 562.5" </Values>
+                                </Item>
+                                <Item Index="2">
+                                  <Values>  "1475, 558.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="4" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "HV" "cTGC_DataTransferLink_1872" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View1" "View1" "1" "19" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1325, 625" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1375, 625" </Values>
+                                </Item>
+                                <Item Index="2">
+                                  <Values>  "1375, 500" </Values>
+                                </Item>
+                                <Item Index="3">
+                                  <Values>  "1475, 500" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="5" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "HV" "cTGC_DataTransferLink_1873" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View1" "View1" "1" "20" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1325, 625" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1375, 625" </Values>
+                                </Item>
+                                <Item Index="2">
+                                  <Values>  "1375, 575" </Values>
+                                </Item>
+                                <Item Index="3">
+                                  <Values>  "1475, 575" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="6" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "POLY" "cTGC_DataTransferLink_1880" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View1" "View2" "1" "22" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1525, 1150" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1575, 1150" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="7" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "POLY" "cTGC_DataTransferLink_1881" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View1" "View2" "1" "24" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1525, 1225" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1575, 1225" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="8" Identifier="">
+                        <Values>  "2" "Green" "OpenedArrow" "2" "" "False" "True" "False" "HV" "cTGC_Integer_IntegerLink_1878" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "26" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1325, 1137.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1475, 1137.5" </Values>
+                                </Item>
+                                <Item Index="2">
+                                  <Values>  "1475, 1133.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="9" Identifier="">
+                        <Values>  "2" "Green" "OpenedArrow" "2" "" "False" "True" "False" "HV" "cTGC_Integer_IntegerLink_1879" "Solid" "" "NONE" "Black" "1" "4" "4" "None" "" "" "View1" "View1" "1" "28" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1325, 1212.5" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1475, 1212.5" </Values>
+                                </Item>
+                                <Item Index="2">
+                                  <Values>  "1475, 1208.5" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="10" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "HV" "cTGC_DataTransferLink_1882" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "" "View1" "1" "29" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1325, 1275" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1375, 1275" </Values>
+                                </Item>
+                                <Item Index="2">
+                                  <Values>  "1375, 1150" </Values>
+                                </Item>
+                                <Item Index="3">
+                                  <Values>  "1475, 1150" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="11" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "HV" "cTGC_DataTransferLink_1883" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View1" "View1" "1" "30" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1325, 1275" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1375, 1275" </Values>
+                                </Item>
+                                <Item Index="2">
+                                  <Values>  "1375, 1225" </Values>
+                                </Item>
+                                <Item Index="3">
+                                  <Values>  "1475, 1225" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="12" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "HV" "cTGC_DataTransferLink_1885" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View1" "View1" "1" "32" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1325, 850" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1450, 850" </Values>
+                                </Item>
+                                <Item Index="2">
+                                  <Values>  "1450, 775" </Values>
+                                </Item>
+                                <Item Index="3">
+                                  <Values>  "1475, 775" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="13" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "POLY" "cTGC_DataTransferLink_29" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View1" "View3" "1" "34" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1525, 775" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1575, 775" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="14" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "POLY" "cTGC_DataTransferLink_33" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View1" "View2" "1" "38" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1525, 950" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1575, 950" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="15" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "HV" "cTGC_DataTransferLink_39" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View2" "View1" "1" "40" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1325, 743.75" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1350, 743.75" </Values>
+                                </Item>
+                                <Item Index="2">
+                                  <Values>  "1350, 775" </Values>
+                                </Item>
+                                <Item Index="3">
+                                  <Values>  "1375, 775" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="16" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "HV" "cTGC_DataTransferLink_41" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View2" "View1" "1" "42" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1325, 743.75" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1350, 743.75" </Values>
+                                </Item>
+                                <Item Index="2">
+                                  <Values>  "1350, 950" </Values>
+                                </Item>
+                                <Item Index="3">
+                                  <Values>  "1375, 950" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="17" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "POLY" "cTGC_DataTransferLink_42" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View1" "View1" "1" "43" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1425, 775" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1475, 775" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                      <Item Index="18" Identifier="">
+                        <Values>  "5" "Black" "OpenedArrow" "2" "" "False" "False" "False" "POLY" "cTGC_DataTransferLink_43" "DashDot" "" "SOLID" "&amp;apos;Grey&amp;apos;" "1" "4" "4" "None" "" "" "View1" "View1" "1" "44" </Values>
+                        <List Name="Points">
+                          <System.Collections.Generic.List_HEX60_1>
+                            <ListItems>
+                              <System.Drawing.SizeF>
+                                <Properties>Value </Properties>
+                                <Item Index="0">
+                                  <Values>  "1425, 950" </Values>
+                                </Item>
+                                <Item Index="1">
+                                  <Values>  "1475, 950" </Values>
+                                </Item>
+                              </System.Drawing.SizeF>
+                            </ListItems>
+                          </System.Collections.Generic.List_HEX60_1>
+                        </List>
+                      </Item>
+                    </IPS.Plugin.LinkDrawingDataImpl>
+                  </ListItems>
+                </IPS.Core.LinkDrawingDataList>
+              </List>
+            </Item>
+          </IPS.Plugin.LayerDrawingDataImpl>
+        </ListItems>
+      </IPS.Core.LayerDrawingDataList>
+    </List>
+  </IPS.Plugin.DrawingPageImpl>
+</IPS>

@@ -1,0 +1,132 @@
+<?xml version="1.0" standalone="yes"?>
+<IPS>
+  <Library Name="IPS" Version="8.3.3.3485" />
+  <Library Name="Actuator" Version="2.0.3.0" />
+  <Library Name="ActuatorToElecLibConnection" Version="1.0.1.0" />
+  <Library Name="AppStarter" Version="1.0.6479.0" />
+  <Library Name="DCS" Version="8.2.0.0" />
+  <Library Name="ElectricalNetworkSolver" Version="10.0.0.0" />
+  <Library Name="FlownexInterfacing" Version="1.0.0.0" />
+  <Library Name="FSEManagerLibrary" Version="1.0.4.0" />
+  <Library Name="Furnace" Version="1.0.1.0" />
+  <Library Name="HardwarePanels" Version="1.0.0.0" />
+  <Library Name="InstructorStation" Version="1.0.2.0" />
+  <Library Name="LoadFile" Version="1.0.1.0" />
+  <Library Name="MaterialsHandling" Version="1.0.0.0" />
+  <Library Name="OPCDriver" Version="1.0.1.0" />
+  <Library Name="PSSShaft" Version="1.0.2.0" />
+  <Library Name="SamahnziVisualisation" Version="1.2.1.0" />
+  <Library Name="ShaftConnectionLibrary" Version="1.0.1.0" />
+  <Library Name="ThermoHydraulicLibrary" Version="2.1.1.0" />
+  <Library Name="Transmitter" Version="1.0.3.0" />
+  <Library Name="TransmitterToElectricLibrary" Version="1.0.1.0" />
+  <Library Name="Flownex" Version="8.3.3.0" />
+  <Library Name="Flownex" Version="8.3.3.0" />
+  <Library Name="IPS.Actions" Version="8.3.3.0" />
+  <Library Name="IPS.Alarms" Version="8.3.3.0" />
+  <Library Name="IPS.Backtracking" Version="8.3.3.0" />
+  <Library Name="IPS.DataTransfer" Version="8.3.3.0" />
+  <Library Name="IPS.Designer" Version="8.3.3.0" />
+  <Library Name="IPS.Excel" Version="8.3.3.0" />
+  <Library Name="IPS.ExcelReporting" Version="8.3.3.0" />
+  <Library Name="IPS.Exposers" Version="8.3.3.0" />
+  <Library Name="IPS.Forms" Version="8.3.3.0" />
+  <Library Name="IPS.Logger" Version="8.3.3.0" />
+  <Library Name="IPS.PropertyMonitor" Version="8.3.3.0" />
+  <Library Name="IPS.Scheduler" Version="8.3.3.0" />
+  <Library Name="IPS.Scripting" Version="8.3.3.0" />
+  <Library Name="IPS.Tools" Version="8.3.3.0" />
+  <Library Name="IPS.TrainingEvaluation" Version="8.3.3.0" />
+  <Library Name="IPS.Visualisation" Version="8.3.3.0" />
+  <IPS.Plugin.DrawingPageImpl>
+    <Properties>FitInstructorPage FitOperatorPage FloatByDefault FullscreenInstructorPage FullscreenOperatorPage Identifier InstructorFloatByDefault InstructorPage OperatorFloatByDefault OperatorPage PersistedIdentifierWithTemplate ScaleX ScaleY Size StartupInstructorPage StartupOperatorPage StyleSelector SystemName TID UserDescription ViewPortOrigin </Properties>
+    <Values>  "False" "False" "False" "False" "False" "Pages\B. Plant Models\01 Open Cycle Turbine and Generator\x. Remote Functions.page" "False" "False" "False" "False" "Pages\B. Plant Models\01 Open Cycle Turbine and Generator\x. Remote Functions.page" "0.6999999" "0.6999999" "2800, 2000" "False" "False" "*F*Image;Horizontal1;Page.jpg;White;Gray;100*/F**S*DarkGray;Solid;1*/S**T*Black;Microsoft Sans Serif, 10pt;MiddleCenter;*/T*" "" "" "" "0, 172" </Values>
+    <List Name="LayerDrawingDatas">
+      <IPS.Core.LayerDrawingDataList>
+        <ListItems>
+          <IPS.Plugin.LayerDrawingDataImpl>
+            <Properties>Active Identifier PersistedIdentifierWithTemplate TID UserDescription Visible VisibleToEngineersOnly zOrder </Properties>
+            <Item Index="0" Identifier="Design">
+              <Values>  "False" "Design" "Design" "" "" "True" "False" "0" </Values>
+            </Item>
+            <Item Index="1" Identifier="Default">
+              <Values>  "True" "Default" "Default" "" "" "True" "False" "1" </Values>
+              <List Name="ComponentDrawingDatas">
+                <IPS.Core.ComponentDrawingDataList>
+                  <ListItems>
+                    <IPS.Plugin.ComponentDrawingDataImpl>
+                      <Properties>Center ComponentUserName ConfigName DisplayOptionShown FlipX FlipY Identifier Image Merging PersistedIdentifierWithTemplate Rotation Size TID UserDescription zOrder </Properties>
+                      <Item Index="0" Identifier="View1">
+                        <Values>  "2475, 1875" "c_Text Box_94" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "450, 100" "" "" "0" </Values>
+                      </Item>
+                      <Item Index="1" Identifier="View2">
+                        <Values>  "150, 200" "rf01002" "(Default)" "ChooseConfiguration" "False" "False" "View2" "" "NORMAL" "View2" "0" "50, 50" "" "" "1" </Values>
+                      </Item>
+                      <Item Index="2" Identifier="View2">
+                        <Values>  "150, 125" "rf01001" "(Default)" "ChooseConfiguration" "False" "False" "View2" "" "NORMAL" "View2" "0" "50, 50" "" "" "2" </Values>
+                      </Item>
+                      <Item Index="3" Identifier="View1">
+                        <Values>  "454, 142" "c_IO Box_95" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "508, 16" "" "" "3" </Values>
+                      </Item>
+                      <Item Index="4" Identifier="View2">
+                        <Values>  "150, 275" "rf01003" "(Default)" "ChooseConfiguration" "False" "False" "View2" "" "NORMAL" "View2" "0" "50, 50" "" "" "5" </Values>
+                      </Item>
+                      <Item Index="5" Identifier="View2">
+                        <Values>  "150, 350" "rf01004" "(Default)" "ChooseConfiguration" "False" "False" "View2" "" "NORMAL" "View2" "0" "50, 50" "" "" "4" </Values>
+                      </Item>
+                      <Item Index="6" Identifier="View1">
+                        <Values>  "454, 217" "c_IO Box_100" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "508, 16" "" "" "6" </Values>
+                      </Item>
+                      <Item Index="7" Identifier="View1">
+                        <Values>  "467, 292" "c_IO Box_101" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "534, 16" "" "" "7" </Values>
+                      </Item>
+                      <Item Index="8" Identifier="View1">
+                        <Values>  "467, 367" "c_IO Box_102" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "534, 16" "" "" "8" </Values>
+                      </Item>
+                      <Item Index="9" Identifier="View2">
+                        <Values>  "150, 425" "rf01005" "(Default)" "ChooseConfiguration" "False" "False" "View2" "" "NORMAL" "View2" "0" "50, 50" "" "" "10" </Values>
+                      </Item>
+                      <Item Index="10" Identifier="View2">
+                        <Values>  "150, 500" "rf01006" "(Default)" "ChooseConfiguration" "False" "False" "View2" "" "NORMAL" "View2" "0" "50, 50" "" "" "9" </Values>
+                      </Item>
+                      <Item Index="11" Identifier="View1">
+                        <Values>  "498, 442" "c_IO Box_103" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "596, 16" "" "" "11" </Values>
+                      </Item>
+                      <Item Index="12" Identifier="View1">
+                        <Values>  "500, 517" "c_IO Box_104" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "596, 16" "" "" "12" </Values>
+                      </Item>
+                      <Item Index="13" Identifier="View2">
+                        <Values>  "150, 650" "rf01008" "(Default)" "ChooseConfiguration" "False" "False" "View2" "" "NORMAL" "View2" "0" "50, 50" "" "" "13" </Values>
+                      </Item>
+                      <Item Index="14" Identifier="View2">
+                        <Values>  "150, 574.999939" "rf01007" "(Default)" "ChooseConfiguration" "False" "False" "View2" "" "NORMAL" "View2" "0" "50, 50" "" "" "14" </Values>
+                      </Item>
+                      <Item Index="15" Identifier="View1">
+                        <Values>  "467, 592" "c_IO Box_115" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "534, 16" "" "" "15" </Values>
+                      </Item>
+                      <Item Index="16" Identifier="View1">
+                        <Values>  "467, 667" "c_IO Box_116" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "534, 16" "" "" "16" </Values>
+                      </Item>
+                      <Item Index="17" Identifier="View2">
+                        <Values>  "150, 725" "rf01009" "(Default)" "ChooseConfiguration" "False" "False" "View2" "" "NORMAL" "View2" "0" "50, 50" "" "" "17" </Values>
+                      </Item>
+                      <Item Index="18" Identifier="View2">
+                        <Values>  "150, 800" "rf01010" "(Default)" "ChooseConfiguration" "False" "False" "View2" "" "NORMAL" "View2" "0" "50, 50" "" "" "18" </Values>
+                      </Item>
+                      <Item Index="19" Identifier="View1">
+                        <Values>  "467, 817" "c_IO Box_1" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "534, 16" "" "" "19" </Values>
+                      </Item>
+                      <Item Index="20" Identifier="View1">
+                        <Values>  "467, 742" "c_IO Box_188" "" "ChooseConfiguration" "False" "False" "View1" "" "NORMAL" "View1" "0" "534, 16" "" "" "20" </Values>
+                      </Item>
+                    </IPS.Plugin.ComponentDrawingDataImpl>
+                  </ListItems>
+                </IPS.Core.ComponentDrawingDataList>
+              </List>
+            </Item>
+          </IPS.Plugin.LayerDrawingDataImpl>
+        </ListItems>
+      </IPS.Core.LayerDrawingDataList>
+    </List>
+  </IPS.Plugin.DrawingPageImpl>
+</IPS>
